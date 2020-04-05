@@ -1,5 +1,5 @@
 {
-    "name": "knock/calculator_inst",
+    "name": "Eslam-adel-github/knock",
     "description": "to calculator difference between number",
     "require": {},
     "minimum-stability": "dev",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Knock\\Calculator\\": "knock/calculator_inst/src"
+            "Knock\\Calculator\\": "Eslam-adel-github/knock/src"
         }
     }
 }
