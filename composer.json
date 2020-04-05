@@ -1,0 +1,21 @@
+{
+    "name": "knock/calculator_inst",
+    "description": "to calculator difference between number",
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Knock\\Calculator\\PackageServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "Knock\\Calculator\\Calculator"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Knock\\Calculator\\": "knock/calculator_inst/src"
+        }
+    }
+}
